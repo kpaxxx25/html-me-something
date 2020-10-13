@@ -352,16 +352,22 @@
  
 body {
     border: 7px double darkolivegreen;
-    margin: 50px 25px 50px;
+    margin: 50px 50px 50px;
     background-color: #c2cdbd;
   }
 
 section {
     padding-top: 30px;
-    padding-right: 30px;
+    padding-right: 75px;
     padding-bottom: 30px;
-    padding-left: 30px;
+    padding-left: 75px;
   }
+li {
+    padding: 5px
+}
+li.topics {
+    font-weight: bold;
+}
 footer {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -392,7 +398,7 @@ p {
   }
 h2 {
     text-align: center;
-    border: darkolivegreen;
+    background-color: darkolivegreen;
   }
 h3 {
     text-align: center;
