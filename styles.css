@@ -348,11 +348,14 @@
     display: none;
   }
 
+body {
+    cursor: url("https://cdn.custom-cursor.com/db/6120/32/cute-pot-with-plant-cursor.png"), auto;
+  }
 
  
 body {
     border: 7px double darkolivegreen;
-    margin: 50px 50px 50px;
+    margin: 75px 75px 75px;
     background-color: #c2cdbd;
   }
 
@@ -376,7 +379,7 @@ footer {
   }
 
 a.bottom {
-    padding-right: 30px;
+    padding: 30px;
   }   
 
 #BTT {
@@ -387,13 +390,14 @@ a.bottom {
 
 #topSearch {
     list-style-type: none;
-    margin: 50px 250px 30px;
+    margin: 50px 300px 30px;
     background-position: center;
     background-color: darkolivegreen;
 }
 
 p {
     font-size: larger;
+    margin: 50px 300px 30px;
     background-color: darkolivegreen;
   }
 h2 {
@@ -422,8 +426,8 @@ figcaption {
   }
 
 h1 {
+    background-color: darkolivegreen;
     font-size: 400%;
-    padding-top: 60px;
 }
 
 a:link {
@@ -440,4 +444,9 @@ a:link {
   
   a:active {
     color:#5cd6d6;
+  }
+
+  ul {
+    padding: 20px 250px;
+    list-style-image: url("https://twemoji.maxcdn.com/2/svg/1f338.svg");
   }
