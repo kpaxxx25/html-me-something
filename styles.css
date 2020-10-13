@@ -351,7 +351,7 @@
 
  
 body {
-    border: 7px solid darkolivegreen;
+    border: 7px double darkolivegreen;
     margin: 50px 25px 50px;
     background-color: #c2cdbd;
   }
@@ -372,6 +372,7 @@ footer {
 a.bottom {
     padding-right: 30px;
   }   
+
 #BTT {
     font-weight: bold;
     font-size: larger;
@@ -379,15 +380,19 @@ a.bottom {
 }
 
 #topSearch {
+    list-style-type: none;
+    margin: 50px 250px 30px;
+    background-position: center;
     background-color: darkolivegreen;
 }
 
 p {
+    font-size: larger;
     background-color: darkolivegreen;
   }
 h2 {
     text-align: center;
-    background-color: darkolivegreen;
+    border: darkolivegreen;
   }
 h3 {
     text-align: center;
@@ -412,6 +417,21 @@ figcaption {
 
 h1 {
     font-size: 400%;
-    font: cursive;
     padding-top: 60px;
 }
+
+a:link {
+    color: #662200;
+  }
+  
+  a:visited {
+    color: #ff4da6;
+  }
+  
+  a:hover {
+    color:#1a0900;
+  }
+  
+  a:active {
+    color:#5cd6d6;
+  }
